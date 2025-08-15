@@ -1,20 +1,3 @@
-// at top of file
-import './brand.css';
-
-export default function App() {
-  return (
-    <div className="app-shell">
-      <header className="brand-header">
-        <img src="/brand.png" alt="Your Brand" className="brand-logo" />
-        <span className="brand-name">The Transformer</span>
-      </header>
-      <main className="chat-body">
-        {/* existing chat component */}
-      </main>
-    </div>
-  );
-}
-
 import useSpeechToText from './js/useSpeechToText';
 import { useState, useEffect, useRef, useCallback } from 'react';
 import ReactMarkdown from "react-markdown"
