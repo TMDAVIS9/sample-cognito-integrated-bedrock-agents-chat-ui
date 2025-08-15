@@ -20,8 +20,6 @@ import {
 import PropTypes from 'prop-types';
 import * as AWSAuth from '@aws-amplify/auth';
 import { BedrockAgentRuntimeClient, InvokeAgentCommand } from "@aws-sdk/client-bedrock-agent-runtime";
-import { BedrockAgentRuntimeClient, InvokeAgentCommand } from "@aws-sdk/client-bedrock-agent-runtime";
-import { LambdaClient, InvokeCommand } from "@aws-sdk/client-lambda";
 import './ChatComponent.css';
 
 /**
